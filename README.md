@@ -94,7 +94,7 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
 
 ## Metodología
 
-###Proceso de limpieza y análisis
+### Proceso de limpieza y análisis
 
 **1. Carga del archivo**
 
