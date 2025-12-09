@@ -10,15 +10,16 @@ Industria, Innovación e Infraestructura busca construir infraestructuras resili
 
 ## Información del Equipo
 
-|  Rol  |        Nombre       |       GitHub          |          Responsabilidades             |
-|-------|---------------------|-----------------------|----------------------------------------|
-| [Rol] |   Sofia Acosta      |    @sofii0104         | Análisis exploratorio, estadísticas    |
-| [Rol] |   Hellen Bonilla    |    @Hellen            | Limpieza y preparación de datos        |
-| [Rol] |   Hansel Ramírez    |    @Hansell-12        | Dashboard, gráficos                    |
-| [Rol] |   Rafael Mezua      |    @rafaelmezua       | Coordinación, presentación             |
-| [Rol] |   Elias Arosemena   |    [@username]        | Coordinación, presentación             |
-| [Rol] |   Alison Bonilla    |    [@username]        | Coordinación, presentación             |
-| [Rol] |   Alexandra Barrios |    @ct24-alexabarrios | Coordinación, presentación             |
+|        Nombre       |       GitHub          |          Responsabilidades             |
+|---------------------|-----------------------|----------------------------------------|
+|   Sofia Acosta      |    @sofii0104         | Análisis exploratorio, presentación    |
+|   Hellen Bonilla    |    @Hellen            | Limpieza y preparación de datos        |
+|   Hansel Ramírez    |    @Hansell-12        | Repositorio de GitHub                  |
+|   Rafael Mezua      |    @rafaelmezua       | Coordinación, presentación             |
+|   Elias Arosemena   |                       | Análisis exploratorio, estadísticas    |
+|   Alison Bonilla    |                       | Coordinación, presentación             |
+|   Alexandra Barrios |    @ct24-alexabarrios | Coordinación, presentación             |
+|   Brihanna          |                       | Modelado y proyecciones                |
 
 ---
 
@@ -91,18 +92,57 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
 - ![Plotly](https://img.shields.io/badge/-Plotly-blue?logo=plotly) **Plotly** - Visualizaciones interactivas
 - ![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github) **GitHub** - Control de versiones
 
----
+## Metodología
 
-## Principales Hallazgos
+###Proceso de limpieza y análisis
 
-### Insight 1: [Título del Hallazgo]
-[Descripción del hallazgo y su relevancia para el ODS]
+**1. Carga del archivo**
 
-### Insight 2: [Título del Hallazgo]
-[Descripción del hallazgo y su relevancia para el ODS]
+  -  Se cargó el dataset usando pandas.read_csv(), especificando el separador correcto sep=';'.
 
-### Insight 3: [Título del Hallazgo]
-[Descripción del hallazgo y su relevancia para el ODS]
+**2. Revisión inicial**
+
+  - Se analizaron:
+  - Las primeras filas del dataset (df.head())
+
+  - La estructura completa (df.info())
+
+  - Estadísticas generales (df.describe())
+
+  - Cantidad de valores nulos por columna (df.isnull().sum())
+
+*Esto permitió comprender el estado del archivo.*
+
+**3. Limpieza básica**
+
+Se realizaron las siguientes acciones:
+
+  - Eliminación de columnas irrelevantes.
+
+  - Conversión de coordenadas X y Y a valores numéricos
+
+  - Filtrado de filas vacías o incorrectas
+
+  - Normalización ligera de algunos textos
+
+
+**4. Análisis**
+
+Se generaron conteos y agrupaciones:
+
+  - Cantidad de contenedores por tipo
+
+  - Conteo de contenedores por barrio
+
+  - Preparación de datos para las gráficas
+
+**Finalmente, se creó una figura con tres gráficos en un solo panel:** 
+
+  1. Cantidad por tipo de contenedor
+
+  2. Barrios con mayor cantidad de contenedores
+
+  3. Distribución porcentual por tipo (gráfico de pastel)
 
 -------------------------------------------
 
@@ -179,17 +219,11 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
 📁 proyecto-final/
 │
 ├── data/
-│   ├── raw/                    # Datos originales sin procesar
-│   ├── processed/              # Datos limpios y procesados
-│   └── external/               # Datos externos y APIs -- En caso de utilizar (opcional)
+│   ├── Datosproyecto.csv                    # Datos originales sin procesar
 │
 ├── notebooks/
-│   ├── 01-exploracion-inicial.ipynb
-│   ├── 02-limpieza-datos.ipynb
-│   ├── 03-analisis-exploratorio.ipynb
-│   └── 04-visualizaciones.ipynb
+│   ├── Proyecto.ipynb                       # Programación y análisis final de los datos
 │
-├── PresentacionGrupal.ppt   # Presentación
 └── README.md                # Este archivo
 ```
 
@@ -205,13 +239,4 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
 
 **¡Gracias por revisar nuestro proyecto! **
 
-*Hecho por el equipo [Nombre del Equipo]*
-
----
-
-## Contacto
-
-¿Preguntas sobre el proyecto? ¡Contáctanos!
-
-- **Correo del equipo:** [email@dominio.com]
-- **Discord/Slack:** [#nombre-proyecto]
+*Hecho por el equipo Circular Madrid*
