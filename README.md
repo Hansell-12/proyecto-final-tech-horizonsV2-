@@ -1,5 +1,5 @@
-# Proyecto Final Tech Horizons Grupo A V2
-## [Lema/Slogan del Proyecto]
+# Circular Data Madrid
+## *"Analizamos, optimizamos y reducimos impactos para una ciudad más limpia y resiliente".*
 
 ### ODS 9: Industria, innovación e infraestructura
 ### ODS 9 Objetivo:  
