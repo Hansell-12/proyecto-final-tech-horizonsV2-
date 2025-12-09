@@ -224,7 +224,7 @@ Se generaron conteos y agrupaciones:
 ├── notebooks/
 │   ├── Proyecto.ipynb                       # Programación y análisis final de los datos
 │
-└── README.md                # Este archivo
+└── README.md                                # Este archivo
 ```
 
 ---
@@ -237,6 +237,6 @@ Se generaron conteos y agrupaciones:
 
 ---
 
-**¡Gracias por revisar nuestro proyecto! **
+**¡Gracias por revisar nuestro proyecto!**
 
 *Hecho por el equipo Circular Madrid*
