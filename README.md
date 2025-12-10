@@ -6,7 +6,7 @@
 Industria, Innovación e Infraestructura busca construir infraestructuras resilientes, fomentar la industrialización sostenible y promover la innovación.
 
 
----
+-------------------------------------------
 
 ## Información del Equipo
 
@@ -21,7 +21,7 @@ Industria, Innovación e Infraestructura busca construir infraestructuras resili
 |   Alexandra Barrios |    @ct24-alexabarrios | Coordinación, presentación             |
 |   Brihanna          |                       | Modelado y proyecciones                |
 
----
+-------------------------------------------
 
 ## Problemática
 
@@ -29,6 +29,7 @@ Industria, Innovación e Infraestructura busca construir infraestructuras resili
 En la Comunidad de Madrid persisten importantes desafíos relacionados con la separación, recolección y valorización de residuos reciclables. A pesar de contar con un sistema de contenedores por fracción y diversas infraestructuras de tratamiento, su cobertura y accesibilidad no son homogéneas entre los distritos. Asimismo, se observan tasas significativas de impropios en las fracciones reciclables, lo que limita la eficiencia de los procesos de recuperación de materiales como plástico, vidrio, aluminio, papel y cartón.
 Como consecuencia, una proporción considerable de los residuos generados continúa siendo destinada a infraestructuras como el Parque Tecnológico de Valdemingómez, lo que contribuye a la saturación del sistema, aumenta los costos operativos y genera impactos ambientales negativos. Esta situación evidencia una brecha entre la capacidad instalada y las necesidades reales de la población madrileña.
 
+-------------------------------------------
 
 ### ¿Por qué es importante?
 La insuficiencia de infraestructura y la desigual participación ciudadana en los programas de reciclaje tienen repercusiones ambientales, económicas y sociales. Entre ellas destacan:
@@ -42,6 +43,8 @@ La insuficiencia de infraestructura y la desigual participación ciudadana en lo
 - **Limitaciones para avanzar hacia un modelo de economía circular**, debido al bajo aprovechamiento de los residuos y a la falta de datos precisos para optimizar su gestión.
 
 - **Desigualdades territoriales** en el acceso a puntos limpios y contenedores especializados, lo que resulta en una menor participación de ciertos sectores de la población.
+
+-------------------------------------------
 
 ### ¿A quién afecta?
 El problema impacta a múltiples actores del ecosistema urbano de Madrid:
@@ -58,6 +61,7 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
 
 - **El entorno natural**, impactado por el aumento de desechos, las emisiones derivadas de su gestión y la pérdida de recursos potencialmente reutilizables.
 
+-------------------------------------------
 
 ### Alcance del Proyecto
 - **Geográfico:** Local — El proyecto se centra en el municipio de Madrid, abarcando sus 21 distritos y las diferencias territoriales en la infraestructura y participación en el reciclaje.
@@ -72,7 +76,7 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
   - **Actores institucionales** relacionados con la gestión de residuos (Ayuntamiento de Madrid, empresas gestoras y puntos limpios).
 
 
----
+-------------------------------------------
 
 ## Datos Utilizados
 
@@ -81,7 +85,7 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
 |----------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | Portal de datos abiertos del Ayuntamiento de Madrid | https://bit.ly/datos-madrid-residuos | En este conjunto de datos puede encontrar las direcciones y los puntos geolocalizados de cada uno de los contenedores de papel-cartón, vidrio, envases, orgánica y restos disponibles en los distritos. | 2018-2025 |
 
----
+-------------------------------------------
 
 ## Tecnologías Utilizadas
 
@@ -90,6 +94,8 @@ El problema impacta a múltiples actores del ecosistema urbano de Madrid:
 - ![Streamlit](https://img.shields.io/badge/-Streamlit-red?logo=streamlit) **Streamlit** - Dashboard interactivo
 - ![Plotly](https://img.shields.io/badge/-Plotly-blue?logo=plotly) **Plotly** - Visualizaciones interactivas
 - ![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github) **GitHub** - Control de versiones
+  
+-------------------------------------------
 
 ## Metodología
 
@@ -145,6 +151,22 @@ Se generaron conteos y agrupaciones:
 
 -------------------------------------------
 
+## Principales Hallazgos
+
+### Insight 1: Inequidad en la distribución de contenedores urbanos
+   - Los distritos del centro y zonas densamente pobladas tienen menos contenedores por habitante que zonas periféricas. Esto demuestra una inequidad en la infraestructura disponible.
+
+### Insight 2: El impacto de los impropios en el reciclaje
+  - Identificamos barrios con altos niveles de impropios, lo que afecta la capacidad de las plantas de reciclaje y aumenta el costo de procesamiento.
+
+### Insight 3: Brechas entre capacidad instalada y generación de residuos
+   - Al comparar el volumen de contenedores con la generación de residuos, descubrimos brechas que explican la baja eficiencia del sistema.
+
+### Insight 4: Zonas críticas: baja infraestructura y participación ciudadana
+   - Detectamos zonas críticas donde la falta de infraestructura coincide con baja participación ciudadana, lo que abre oportunidades de innovación.
+
+-------------------------------------------
+
 ### Contribución a los ODS
 
 - **Indicador 9.1.1 – Acceso a infraestructura sostenible**
@@ -161,7 +183,7 @@ Se generaron conteos y agrupaciones:
 **Resultado:**
   - Se evidencia una brecha territorial en el acceso a infraestructura de reciclaje, afectando especialmente a distritos socialmente vulnerables, lo que limita la participación ciudadana y la eficiencia del sistema 
 
-------------------------------------------------
+-------------------------------------------
 
 - **Indicador 9.4.1 – Eficiencia en el uso de recursos**
 
@@ -176,7 +198,7 @@ Se generaron conteos y agrupaciones:
 **Resultado:**
   - El proyecto demuestra que el uso de herramientas tecnológicas mejora la toma de decisiones basada en datos, permitiendo detectar ineficiencias, desigualdades territoriales y oportunidades de innovación en la gestión de residuos.
     
--------
+-------------------------------------------
 - **Indicador 9.5.1 – Promoción de la innovación**
 
   - **Definición ODS:** Emisiones y eficiencia en procesos industriales e infraestructuras.
@@ -191,7 +213,8 @@ Se generaron conteos y agrupaciones:
 **Resultado:**
   - Las altas tasas de impropios reducen la eficiencia del reciclaje y provocan un mayor envío de residuos a vertedero, aumentando costos operativos y el impacto ambiental del sistema
 
----
+-------------------------------------------
+
 - **Indicador 9.b.1 – Desarrollo sostenible e industrial**
 
   - **Definición ODS:** Apoyo a industrias sostenibles y economía circular.
@@ -205,7 +228,7 @@ Se generaron conteos y agrupaciones:
 **Resultado:**
   - La baja valorización de residuos limita el crecimiento de la economía circular y la generación de empleos verdes, evidenciando la necesidad de fortalecer la infraestructura y la educación ambiental.
 
----
+-------------------------------------------
 
 ## Conclusión
 
@@ -226,7 +249,7 @@ Se generaron conteos y agrupaciones:
 └── README.md                                # Este archivo
 ```
 
----
+-------------------------------------------
 
 ## Agradecimientos
 
@@ -234,7 +257,7 @@ Se generaron conteos y agrupaciones:
 - **Portal de datos abiertos del Ayuntamiento de Madrid** por proporcionar datos abiertos
 - **Comunidad open source** por las herramientas utilizadas.
 
----
+-------------------------------------------
 
 **¡Gracias por revisar nuestro proyecto!**
 
