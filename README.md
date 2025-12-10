@@ -12,14 +12,13 @@ Industria, Innovación e Infraestructura busca construir infraestructuras resili
 
 |        Nombre       |       GitHub          |          Responsabilidades             |
 |---------------------|-----------------------|----------------------------------------|
-|   Sofia Acosta      |    @sofii0104         | Análisis exploratorio, presentación    |
-|   Hellen Bonilla    |    @Hellen            | Limpieza y preparación de datos        |
-|   Hansel Ramírez    |    @Hansell-12        | Repositorio de GitHub                  |
-|   Rafael Mezua      |    @rafaelmezua       | Coordinación, presentación             |
-|   Elias Arosemena   |                       | Análisis exploratorio, estadísticas    |
-|   Alison Bonilla    |                       | Coordinación, presentación             |
-|   Alexandra Barrios |    @ct24-alexabarrios | Coordinación, presentación             |
-|   Brihanna          |                       | Modelado y proyecciones                |
+|   Sofia Acosta      |              @sofii0104                   | Análisis exploratorio, presentación    |
+|   Hellen Bonilla    |              @hellenbonilla216-design     | Limpieza y preparación de datos        |
+|   Hansel Ramírez    |              @Hansell-12                  | Repositorio de GitHub                  |
+|   Rafael Mezua      |              @rafaelmezua                 | Coordinación, presentación             |
+|   Elias Arosemena   |              @300122008                   | Análisis exploratorio, estadísticas    |
+|   Alisson Bonilla   |              @alissonbonilla                             | Coordinación, presentación             |
+|   Alexandra Barrios |              @ct24-alexabarrios           | Coordinación, presentación             |
 
 -------------------------------------------
 
