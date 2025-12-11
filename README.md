@@ -1,5 +1,5 @@
-# Circular Data Madrid
-## *"Analizamos, optimizamos y reducimos impactos para una ciudad más limpia y resiliente".*
+# DATA VERDE
+## *“Datos que impulsan soluciones reales”.*
 
 ### ODS 9: Industria, innovación e infraestructura
 ### ODS 9 Objetivo:  
@@ -260,4 +260,4 @@ Se generaron conteos y agrupaciones:
 
 **¡Gracias por revisar nuestro proyecto!**
 
-*Hecho por el equipo Circular Madrid*
+*Hecho por el equipo DATA VERDE*
